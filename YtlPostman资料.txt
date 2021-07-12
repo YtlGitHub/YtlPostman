@@ -19,7 +19,7 @@
 	
 	接口测试的本质:就是测试接口能否正常的交互数据,权限控制以及异常场景
 
-二.接口返回数据和json详情(校验json格式网站:http://www.bejson.com/)
+二.接口返回数据和json详情(在线校验json格式网站:http://www.bejson.com/)
 	1.json格式:一般返回三组数据(80%),这样的规则
 		{error_code:0,msg:"提现成功",data:[]}
 		error_code:错误码.0代表成功,error_code开发自定义的可以叫code都可以开发自己定义的
@@ -27,9 +27,11 @@
 		data:真正的返回数据
 		
 		(1).json就是一种数据类型,整形,小数,字符串
-		(2).JSON由两组数据组成
+		(2).JSON由两组数据组成(可以相互嵌套)
 			MAP对象,键值对,{key:value,key:value}
 			数组:[value1,value2,value3]
+		(3).在线校验json格式网站:http://www.bejson.com/
+		
 	2.html格式
 		<htm>
 			<title></title>
@@ -43,7 +45,7 @@
 		<?xml?version="1.0"encoding="utf-8">
 			<error_code>0</error_code>
 			......
-		</xml>		
+		</xml>
 		
 		
 		
