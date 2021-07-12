@@ -19,7 +19,7 @@
 	
 	接口测试的本质:就是测试接口能否正常的交互数据,权限控制以及异常场景
 
-二.接口返回数据和json详情
+二.接口返回数据和json详情(校验json格式网站:http://www.bejson.com/)
 	1.json格式:一般返回三组数据(80%),这样的规则
 		{error_code:0,msg:"提现成功",data:[]}
 		error_code:错误码.0代表成功,error_code开发自定义的可以叫code都可以开发自己定义的
