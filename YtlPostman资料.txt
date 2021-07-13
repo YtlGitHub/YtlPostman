@@ -73,6 +73,14 @@
 			请求:get,post,put,delete
 			响应:1xx信息,2xx成功,3xx重定向(跳转不传值),4xx客户端错误,5xx,服务器错误.
 			请求部分包含:
-			
+				请求行:请求方式,请求地址,协议
+				post http://47.107.139/phpwind/index.php?m=u&c=login&a=dorun http/1.1
+				请求头:
+				空一行
+				请求正文:
 			响应部分包含:
+				响应行:协议,响应码,响应信息
+				HTTP/1.1 200 OK
+				响应头:
+				Set-Cookie:
 		
